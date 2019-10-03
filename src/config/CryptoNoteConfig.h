@@ -341,12 +341,10 @@ namespace CryptoNote
     const std::string LICENSE_URL = "https://github.com/turtlecoin/turtlecoin/blob/master/LICENSE";
 
     const static boost::uuids::uuid CRYPTONOTE_NETWORK = {
-        {0xb5, 0x0c, 0x4a, 0x6c, 0xcf, 0x52, 0x57, 0x41, 0x65, 0xf9, 0x91, 0xa4, 0xb6, 0xc1, 0x43, 0xe9}};
+        {0xb5, 0x0f, 0x4a, 0x6c, 0xcf, 0x53, 0x57, 0x41, 0x66, 0xf9, 0x90, 0xa4, 0xb6, 0xc1, 0x44, 0xe9}};
 
     const char *const SEED_NODES[] = {
-        "206.189.142.142:11897", // rock
-        "145.239.88.119:11999", // cision
-        "142.44.242.106:11897", // tom
-        "165.227.252.132:11897" // iburnmycd
+        "3.14.49.200:12000", // moonman
+        
     };
 } // namespace CryptoNote
